@@ -1,4 +1,5 @@
 /BookOfIllusions.class
+/Chuckle_Clicker.class
 /CowTimer.class
 /FortuneTeller.class
 /Jeopardy.class
@@ -7,17 +8,22 @@
 /NetflixQueue.class
 /Recipes.html
 /SimonSays.class
+/Typing_Tutor.class
 /correct.mp3
 /creepy-noise.wav
 /down.jpg
 /extra/
 /fortune teller.png
 /gridworld.jar
+/illusion1.png
+/illusion2.jpg
+/illusion3.jpg
 /incorrect.mp3
 /jeopardy.wav
 /left.jpg
 /moo.wav
 /right.jpg
 /up.jpg
-/Chuckle_Clicker.class
-/Typing_Tutor.class
+/Magic8Ball.class
+/Calculator.class
+/CalculatorRunner.class
