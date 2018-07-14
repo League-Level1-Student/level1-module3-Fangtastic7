@@ -1,18 +1,27 @@
+import javax.swing.JTextField;
 
 public class Calculator {
-	void add() {
+	
+	double add(double num1, double num2) {
+		double outcome = num1 + num2;
+		return outcome;
+	}
+
+	double subtract(double num1, double num2) {
+		double outcome = num1 - num2;
+		return outcome;
+	}
+
+	double multiply(double num1, double num2) {
+		double outcome = num1 * num2;
+		return outcome;
 
 	}
 
-	void subtract() {
-
+	double divide(double num1, double num2) {
+		double outcome = num1/num2;
+		return outcome;
 	}
 
-	void multiply() {
-
-	}
-
-	void divide() {
-
-	}
+	
 }
