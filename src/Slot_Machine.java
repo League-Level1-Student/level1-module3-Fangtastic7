@@ -121,12 +121,18 @@ public void actionPerformed(ActionEvent e) {
 	 
 	
 	// frame.repaint();
-	String answer =  JOptionPane.showInputDialog("Try Again? Then say 'yes'");
-	if(answer.equalsIgnoreCase("yes")) {
+	//String answer =  JOptionPane.showInputDialog("See results?");
+//	if(answer.equalsIgnoreCase("yes")) {
 		
 	
+	// createUI();
+	//}
+	//else {
+	//	System.exit(0);
+	//}
+	 JOptionPane.showMessageDialog(null, "Continue");
+	 System.out.println("#");
 	 createUI();
-	}
 	number1(number1);
 	number2(number2);
 	number3(number3);
@@ -190,11 +196,11 @@ private void number1(int number1) {
 
 public void check(int number1, int number2, int number3) {
 	// TODO Auto-generated method stub
-	 if(number1==number2 ) {
-		 if(number1==3) {
+	 if(number1==number2 && number2==number3) {
+		 
 		 wins = wins+1;
 		 JOptionPane.showMessageDialog(null, "You win! Number of wins: " + wins);
-		 }
+		 
 	 }
 	 else {
 		 System.out.println("Try Again!");
